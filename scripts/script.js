@@ -25,3 +25,19 @@ document.getElementById('contact-action').onclick = function () {
     alert('Спасибо за заявку. Мы связемся с Вами у ближайшее время.');
   }
 };
+document.addEventListener('DOMContentLoaded', function () {
+  let layer = document.querySelector('.contact__img');
+  document.addEventListener('mousemove', (event) => {
+    layer.style.transform =
+      'translate3d(' +
+      (event.clientX * 0.4) / 1 +
+      'px,' +
+      (event.clientY * 0.2) / 10 +
+      'px,0px)';
+  });
+
+  const elem = document.querySelector('.info');
+  document.addEventListener('scroll', () => {
+    elem.style.backgroundPositionX = '0' + 0.6 * window.pageYOffset + 'px';
+  });
+});
