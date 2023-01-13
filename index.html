@@ -18,13 +18,15 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu__link" href="#main">Главная</a>
+              <a class="menu__link" href="#main" id="main-link">Главная</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#car">Автомобили</a>
+              <a class="menu__link" id="car-link" href="#car">Автомобили</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#contact">Бронирование авто</a>
+              <a class="menu__link" href="#contact" id="contact-link"
+                >Бронирование авто</a
+              >
             </li>
           </ul>
         </nav>
@@ -41,10 +43,12 @@
             настоящей легенды и узнать, на что она способна за пределами
             гоночной трассы!
           </p>
-          <button class="info__button button">Посмотреть автомобили</button>
+          <button class="info__button button" id="main-action">
+            Посмотреть автомобили
+          </button>
         </div>
       </section>
-      <section class="car" id="car">
+      <section class="car" id="cars">
         <div class="container">
           <h2 class="title__h2 title">Наш автопарк</h2>
           <div class="car__items">
@@ -384,7 +388,7 @@
           </div>
         </div>
       </section>
-      <section class="contact" id="contact">
+      <section class="contact" id="contacts">
         <div class="container">
           <h2 class="title__h2 contact__title">Узнать цену и забронировать</h2>
           <p class="contact__text">
@@ -396,14 +400,21 @@
             action="
           #"
           >
-            <input type="text" placeholder="Ваше имя" />
-            <input type="tel" placeholder="Ваш телефон" />
+            <input type="text" placeholder="Ваше имя" id="name-input" />
+            <input type="tel" placeholder="Ваш телефон" id="phone-input" />
 
             <input
               type="text"
               placeholder="Автомобиль, который вас интересует"
+              id="car-input"
             />
-            <button class="contact__button button">Узнать цену</button>
+            <button
+              class="contact__button button"
+              id="contact-action"
+              type="button"
+            >
+              Узнать цену
+            </button>
           </form>
           <img class="contact__img" src="images/cars/rolls.jpg" alt="Rolls" />
         </div>
@@ -419,5 +430,6 @@
         <p class="copyright">Все права защищены</p>
       </div>
     </footer>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
