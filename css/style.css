@@ -230,6 +230,9 @@ body {
   .menu__list {
     gap: 0 35px;
   }
+  .info__text {
+    max-width: 400px;
+  }
 }
 @media (max-width: 500px) {
   .header .container {
@@ -246,12 +249,17 @@ body {
     display: none;
   }
   .info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-size: cover;
   }
   .title__h1 {
     font-size: 50px;
     text-align: center;
   }
   .info__text {
+    max-width: 330px;
     font-size: 14px;
   }
   .info__button {
