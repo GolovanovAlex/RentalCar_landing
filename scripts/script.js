@@ -14,11 +14,15 @@ for (let i = 0; i < buttons.length; i++) {
     document.getElementById('contacts').scrollIntoView({ behavior: 'smooth' });
   };
 }
+let nameInput = document.getElementById('name-input');
+
 document.getElementById('contact-action').onclick = function () {
   if (document.getElementById('name-input').value === '') {
     alert('Заполните поле - Имя!');
+    nameInput.style.border = '1px solid red';
   } else if (document.getElementById('phone-input').value === '') {
     alert('Заполните поле - Телефон!');
+    nameInput.style.border = '1px solid blue';
   } else if (document.getElementById('car-input').value === '') {
     alert('Заполните поле - Автомобиль!');
   } else {
