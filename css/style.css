@@ -107,16 +107,17 @@ body {
 }
 .car__items {
   display: flex;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 0 10px;
 }
 .car__item {
   max-width: 384px;
   text-align: center;
   margin-top: 40px;
 }
+
 .car__img-box img {
   vertical-align: bottom;
   margin-bottom: 15px;
@@ -210,4 +211,23 @@ body {
 }
 .copyright {
   font-size: 15px;
+}
+
+@media (max-width: 1166px) {
+  .logo {
+    margin-right: auto;
+  }
+  .info {
+    background-position: 30% center;
+  }
+}
+@media (max-width: 690px) {
+  .menu__list {
+    gap: 0 35px;
+  }
+}
+@media (max-width: 500px) {
+  .menu__list {
+    gap: 0 15px;
+  }
 }
