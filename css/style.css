@@ -301,6 +301,9 @@ body {
   .contact__img {
     display: none;
   }
+  .footer .container {
+    flex-direction: column;
+  }
 }
 @media (max-width: 450px) {
   .car__items {
