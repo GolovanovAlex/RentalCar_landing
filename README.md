@@ -1,12 +1,25 @@
 # Rental Car landing
 
-![gif](readme/underconstruction.gif)
+### Use Skills
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+---
+
+[Demo Link <br>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/RentalCar_landing/)
 
 ## Info
 
+![Gifweb](readme/gifweb.webp)
+
 Создано на основе задания по интенсиву [ITilogia](https://itlogia.ru).
 
-Для обучения и отработки работы c **CSS** и **JavaScript**.
+Верстка полноценного сайта-лендинга. Работа с **HTML**, **CSS** и **JavaScript**.  
+Пройдена валидация HTML и CSS, а так же производительность с помощью **PageSpeed Insights**.
+
+Респонсивный дизайн адаптирует сайт под любой экран устройства.
 
 ---
 
@@ -18,8 +31,3 @@
 - <a href="mailto:golovanov.a.a@yandex.ru" >Golovanov.a.a@yandex.ru</a>
 
 <sub> Made with </sub>💙
-
-
-
-
-
