@@ -212,7 +212,11 @@ body {
 .copyright {
   font-size: 15px;
 }
-
+@media (max-width: 1206px) {
+  .car__items {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 1166px) {
   .logo {
     margin-right: auto;
@@ -258,6 +262,9 @@ body {
     font-size: 50px;
     text-align: center;
   }
+  .title__h2 {
+    font-size: 40px;
+  }
   .info__text {
     max-width: 330px;
     font-size: 14px;
@@ -265,6 +272,33 @@ body {
   .info__button {
     display: block;
     margin: 0 auto;
+  }
+  .car {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .car__items {
+    display: block;
+  }
+  .car__item {
+    margin-top: 20px;
+  }
+  .car__img-box {
+    overflow: hidden;
+  }
+  .car__img {
+    width: 100%;
+  }
+  .car__title {
+    font-size: 20px;
+  }
+  .car__info {
+    gap: 0 5px;
+  }
+
+  .car__info-text {
+    font-size: 14px;
   }
 }
 @media (max-width: 430px) {
